@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Outfit', 'sans-serif'],
+        body: ['Space Grotesk', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,23 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        ocean: {
+          DEFAULT: "hsl(var(--ocean))",
+          foreground: "hsl(var(--ocean-foreground))",
+        },
+        sand: {
+          DEFAULT: "hsl(var(--sand))",
+          dark: "hsl(var(--sand-dark))",
+        },
+        coral: {
+          DEFAULT: "hsl(var(--coral))",
+          light: "hsl(var(--coral-light))",
+        },
+        tropical: {
+          DEFAULT: "hsl(var(--tropical-green))",
+          foreground: "hsl(var(--tropical-green-foreground))",
+        },
+        sunset: "hsl(var(--sunset))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
